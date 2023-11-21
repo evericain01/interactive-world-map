@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  
+.map-column {
+  flex: 2;
+  padding: 10px;
+}
+
+.info-column {
+  flex: 1; 
+  padding: 10px;
+  border-left: 1px solid #ccc; 
+}

@@ -1,0 +1,12 @@
+<div class="container" style="display: flex; flex-direction: row;">
+    <div class="map-column" [innerHTML]="svgMapContent" style="flex: 3; padding: 10px;"></div>
+    <div class="info-column" style="flex: 1; padding: 10px;">
+        <h2>Country Information</h2>
+        <p><b>Name: </b> <span>{{ countryInfo?.name }}</span></p>
+        <p><b>Capital: </b> <span>{{ countryInfo?.capitalCity }}</span></p>
+        <p><b>Region: </b> <span>{{ countryInfo?.region?.value }}</span></p>
+        <p><b>Income Level: </b> <span>{{ countryInfo?.incomeLevel?.value }}</span></p>
+        <p><b>Population: </b> <span>{{ countryInfo?.population }}</span></p>
+        <p><b>GDP: </b> <span>{{ countryInfo?.gdp }}</span></p>
+    </div>
+</div>
