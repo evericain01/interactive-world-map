@@ -3,6 +3,9 @@
 ## Overview
 This project presents an interactive world map using Angular, highlighting each country in a scalable vector graphic (SVG) format upon mouse events. The application connects to API services to fetch and display information about each country.
 
+## World Map Picture In Action
+![Interactive World Map Demo](world-demo-pic.png "Interactive World Map Demo")
+
 ## Prerequisites
 - Node.js (Download: [Node.js](https://nodejs.org/))
 - Angular CLI (Install via `npm install -g @angular/cli`)
